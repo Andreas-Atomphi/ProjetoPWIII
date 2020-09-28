@@ -1,4 +1,4 @@
-package br.com.etechoracio.monitoria.model.business;
+package br.com.etechoracio.monitoria.business;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -10,9 +10,9 @@ import org.springframework.stereotype.Service;
 
 import br.com.etechoracio.monitoria.model.Disciplina;
 import br.com.etechoracio.monitoria.model.Usuario;
-import br.com.etechoracio.monitoria.model.dao.DisciplinaDAO;
-import br.com.etechoracio.monitoria.model.dto.DisciplinaDTO;
-import br.com.etechoracio.monitoria.model.dto.UsuarioDTO;
+import br.com.etechoracio.monitoria.dao.DisciplinaDAO;
+import br.com.etechoracio.monitoria.dto.DisciplinaDTO;
+import br.com.etechoracio.monitoria.dto.UsuarioDTO;
 
 @Service
 public class DisciplinaBusiness {

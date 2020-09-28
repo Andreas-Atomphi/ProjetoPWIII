@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import br.com.etechoracio.monitoria.model.Disciplina;
-import br.com.etechoracio.monitoria.model.business.DisciplinaBusiness;
-import br.com.etechoracio.monitoria.model.dao.DisciplinaDAO;
-import br.com.etechoracio.monitoria.model.dto.DisciplinaDTO;
+import br.com.etechoracio.monitoria.business.DisciplinaBusiness;
+import br.com.etechoracio.monitoria.dao.DisciplinaDAO;
+import br.com.etechoracio.monitoria.dto.DisciplinaDTO;
 
 
 @RestController

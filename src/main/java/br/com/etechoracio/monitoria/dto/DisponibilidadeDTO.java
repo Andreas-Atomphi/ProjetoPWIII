@@ -1,4 +1,4 @@
-package br.com.etechoracio.monitoria.model.dto;
+package br.com.etechoracio.monitoria.dto;
 
 import java.util.Date;
 

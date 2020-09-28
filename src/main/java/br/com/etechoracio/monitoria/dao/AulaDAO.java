@@ -1,4 +1,4 @@
-package br.com.etechoracio.monitoria.model.dao;
+package br.com.etechoracio.monitoria.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.etechoracio.monitoria.model.Usuario;
-import br.com.etechoracio.monitoria.model.business.UsuarioBusiness;
-import br.com.etechoracio.monitoria.model.dao.UsuarioDAO;
-import br.com.etechoracio.monitoria.model.dto.UsuarioDTO;
+import br.com.etechoracio.monitoria.business.UsuarioBusiness;
+import br.com.etechoracio.monitoria.dao.UsuarioDAO;
+import br.com.etechoracio.monitoria.dto.UsuarioDTO;
 
 @RestController
 @RequestMapping("/usuarios")

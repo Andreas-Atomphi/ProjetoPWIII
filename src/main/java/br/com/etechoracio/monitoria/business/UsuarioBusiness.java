@@ -1,4 +1,4 @@
-package br.com.etechoracio.monitoria.model.business;
+package br.com.etechoracio.monitoria.business;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -10,8 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.etechoracio.monitoria.model.Usuario;
-import br.com.etechoracio.monitoria.model.dao.UsuarioDAO;
-import br.com.etechoracio.monitoria.model.dto.UsuarioDTO;
+import br.com.etechoracio.monitoria.dao.UsuarioDAO;
+import br.com.etechoracio.monitoria.dto.UsuarioDTO;
 
  // Informa ao sistema que essa é uma camada de serviço.
 // que prove serviços a outros lugares.
